@@ -1,0 +1,60 @@
+.list-container h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.images-container {
+    width: 100%; /*colocar tamanho da galerya */
+    margin-top: 30px;
+}
+
+.row-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+}
+.row-images img {
+    width: 70px;
+    height: auto;
+    margin: 7px 7px;
+}
+
+.table tr th,
+td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table thead tr th {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.title-table {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    height: 44px;
+}
+.title-table h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.search-form {
+    display: flex;
+}
+
+.footer-table {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    height: 44px;
+    align-items: center;
+}

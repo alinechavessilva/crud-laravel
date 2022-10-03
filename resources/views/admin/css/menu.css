@@ -1,0 +1,67 @@
+body header .main-menu {
+  background-color: white;
+  min-height: 180px;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar-brand span {
+  text-transform: initial;
+  display: block;
+}
+
+.menu-container {
+  width: 100%;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-top img {
+  width: 150px;
+}
+
+.header-bottom {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.header-bottom .navbar-collapse {
+  height: 100%;
+}
+
+.header-bottom ul li a {
+  text-transform: uppercase;
+  color: rgb(0, 17, 53) !important;
+  font-weight: bold;
+}
+.navbar-brand img{
+  width: 72px;
+}
+
+@media (min-width: 978px) {
+  .header-bottom {
+    border-top: 1.8px solid #fff;
+    height: 74px;
+  }
+  .header-bottom .navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar {
+    padding-bottom: 0;
+  }
+
+  .navbar-brand {
+    font-size: 2rem;
+    line-height: 43px;
+  }
+}

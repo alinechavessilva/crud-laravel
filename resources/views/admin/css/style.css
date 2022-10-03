@@ -1,0 +1,95 @@
+.search-clima{
+    justify-content: flex-end !important;
+    margin-bottom: 11px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    height: 35px;
+
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+    padding: 0.5rem 0;
+    color: #fff;
+    text-align: center;
+    background-color: white;
+    border-top: 0.05rem solid #999999;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.blog-footer img{
+    width: 50px;
+}
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}
+
+.clima{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 38px;
+}
+
+#btnNovoLink {
+    float: right;
+}
+
+.main-content {
+    width: 100%;
+    margin: 10px 0;
+}
+
+a.btn.btn-primary.submit-register {
+    width: 100px !important;
+}
+
+.page-item.active .page-link {
+    background-color: #98999f;
+    border-color: #909193;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.links-container {
+    background: #ffcc99;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.links {
+    display: flex;
+    width: 100%;
+    padding: 20px 10px;
+}
+
+.links .row {
+    width: 100%;
+}
+
+.links .col-lg-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+@media (max-width: 767px) {
+    .links .row {
+        margin-left: -2px;
+    }
+}
+
+body header .main-menu {
+    min-height: 60px !important;
+    color: #3e3e3f;
+    border-bottom: 0.05rem solid #999999;
+}
